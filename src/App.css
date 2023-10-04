@@ -4,19 +4,69 @@
   -purple2 : #5e548e;
   -purple3 : #9f86c0;
   -purple4 : #be95c4;
-  -purple5 : #e0b1cb;
-
+  -purple5 : #80556d;
   }
 body {
-  font-family: "Karla", sans-serif;
+  font-family: "Karla", Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
-  min-height: 100vh; }
+  min-height: 100vh; 
+  }
 
 .brand-wrapper {
   padding-top: 7px;
   padding-bottom: 8px; }
   .brand-wrapper .logo {
     height: 25px; }
+
+/* Add this CSS to your project's stylesheet */
+/* Customize colors, fonts, and other styles as needed */
+
+/* Navbar Background */
+.navbar {
+  background-color: #007bff; /* Primary color */
+}
+
+/* Logo */
+.logo img {
+  height: 40px; /* Adjust the logo height */
+}
+
+/* Navigation Links */
+.nav-link {
+  color: #fff; /* Text color */
+  font-weight: bold;
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Text color on hover */
+}
+
+/* Hamburger Menu Icon */
+.navbar-toggler-icon {
+  background-color: #fff; /* Hamburger icon color */
+}
+
+/* Mobile Menu Background */
+.navbar-collapse {
+  background-color: #007bff; /* Background color of mobile menu */
+}
+
+/* Mobile Menu Links */
+.navbar-nav .nav-item {
+  margin: 10px 0; /* Adjust spacing between mobile menu items */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Text color in mobile menu */
+  font-weight: bold;
+}
+
+/* Mobile Menu Close Button */
+.navbar-toggler-icon:focus {
+  outline: none; /* Remove focus outline */
+}
+
 
 .login-section-wrapper {
   display: -webkit-box;
@@ -469,4 +519,15 @@ ul {
   border-radius: 2px;
   margin-bottom: 2rem;
   box-shadow: none;
+}
+
+.eventForm {
+  /* fallback for old browsers */
+  background: #f093fb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
 }
